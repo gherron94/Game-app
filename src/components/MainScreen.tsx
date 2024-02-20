@@ -1,10 +1,8 @@
 import { MainScreenProps } from "../App.types";
 import { NavLink } from "react-router-dom";
 
-const MainScreen: React.FC<MainScreenProps> = ({title}) => {
-
+const MainScreen: React.FC<MainScreenProps> = ({ title }) => {
   return (
-    <>
       <div className='container'>
       <div className='main'>
       <header>
@@ -20,17 +18,14 @@ const MainScreen: React.FC<MainScreenProps> = ({title}) => {
       <NavLink to='/settings'><button>Settings</button></NavLink>
       </main>
       </div>
-      <div className='footer'>
-      <footer>
-        <p>
-        © 2024 Group E Untitled Game
-        </p>
-      </footer>
+         <div className="footer">
+          <footer>
+            <p>© 2024 Group E Untitled Game</p>
+          </footer>
+        </div>
       </div>
-    </div>
-    </>
-  )
-
-} 
+    
+  );
+};
 
 export default MainScreen;

@@ -7,7 +7,6 @@ import Controls from './components/Controls';
 import CharacterSelect from './components/CharacterSelect';
 
 const App: React.FC = () => {
- 
   return (
     <>
       <Routes>
@@ -18,7 +17,7 @@ const App: React.FC = () => {
         <Route path="/character-select" element={<CharacterSelect title = 'Select Character'/>} />
       </Routes>
     </>
-  )
-} 
+  );
+};
 
-export default App
+export default App;
