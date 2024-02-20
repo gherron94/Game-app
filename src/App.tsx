@@ -4,6 +4,7 @@ import MainScreen from './components/MainScreen'
 import Settings from './components/Settings'
 import LeaderBoards from './components/LeaderBoards';
 import Controls from './components/Controls';
+import CharacterSelect from './components/CharacterSelect';
 
 const App: React.FC = () => {
  
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Route path="/settings" element={<Settings title = 'Game Settings'/>} />
         <Route path="/leaderboards" element={<LeaderBoards title = 'Leaderboards'/>} />
         <Route path="/controls" element={<Controls title = 'Controls'/>} />
+        <Route path="/character-select" element={<CharacterSelect title = 'Select Character'/>} />
       </Routes>
     </>
   )

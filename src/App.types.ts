@@ -18,3 +18,10 @@ export interface ControlsProps {
   title: string
 }
 
+
+
+export interface CharacterProps {
+  title: string
+}
+
+
