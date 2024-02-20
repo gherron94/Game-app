@@ -13,7 +13,7 @@ const MainScreen: React.FC<MainScreenProps> = ({title}) => {
       <main>
       <img src="" alt='Undecided main screen image'/>
       <div className='start-button'>
-        <h2>Start Game</h2>
+      <NavLink to='/character-select'><h2>Start Game</h2></NavLink>
       </div>
       <NavLink to='/leaderboards'><button>Leaderboards</button></NavLink>
       <NavLink to='/controls'><button>Controls</button></NavLink>
